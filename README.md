@@ -14,16 +14,16 @@ Esses desafios servem para o estudo e auto aprimoramento nas habilidades de dese
 
 Projeto inicial de baixa complexida, com uso de flexbox para centralização do elemento e pequenas estilizações em CSS, aplicando  o conceito de responsividade para a versão mobile. Além disso, uma pequena implementação de lógica baseado em uma calculadora de idade, respeitando valores minimos e possíveis erros de preenchimento, evitando conflitos na resposta.
 
-### Acesse o projeto, clicando neste link: Adicionar posteriomente
-### Página do Desafio: Adicionar posteriomente
+### Acesse o projeto, clicando neste link: [Adicionar posteriomente](https://iagooliveiraf.github.io/Calculadora-de-Idade/)
+### Página do Desafio: https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q
 
 
 
 ## Screenshot
 
 ###  Versão Desktop
-![alt text](Adicionar Posteriormente)
+![alt text](<img width="2551" height="1271" alt="Age_Calculator_Desktop_version" src="https://github.com/user-attachments/assets/0a313418-9c9e-4dac-b84d-3069e3bb5470" />)
 
 
 ###  Versão Mobile
-![alt text](dicionar Posteriormente)
+![alt text](<img width="484" height="1186" alt="Age_Calculator_Mobile_version" src="https://github.com/user-attachments/assets/20758d82-0395-48b1-b856-35b4e143d1c0" />)
