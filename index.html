@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <title>Frontend Mentor | Age calculator app</title>
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./CSS/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
@@ -22,7 +22,9 @@
 <body>
 
   <main id="main_container">
+
     <header id="main_container_header">
+
       <div id="day_input" class="input_age_information">
         <h3>DAY</h3>
         <section>
@@ -45,31 +47,35 @@
       </div>
     </header>
 
-    <article>
-      <img src="./assets/images/icon-arrow.svg" alt="arrow icon">
+    <article id="main_container_article">
       <hr>
-    </article>''
+      <div class="arrow_icon_image_container">
+        <img src="./assets/images/icon-arrow.svg" alt="arrow icon">
+      </div>
+
+    </article>
+
     </section>
 
     <footer id="main_container_footer">
-      <div id="age_calculator_results">
+      <div class="age_calculator_results">
         <h1>--</h1>
         <p>years</p>
+      </div>
+      <div class="age_calculator_results">
         <h1>--</h1>
         <p>months</p>
+      </div>
+      <div class="age_calculator_results">
         <h1>--</h1>
         <p>days</p>
       </div>
 
-
-
+    </footer>
 
 
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 
 </html>

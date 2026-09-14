@@ -1,13 +1,196 @@
+/*====================GLOBAL====================*/
 *{
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+}
+
+/*====================STYLE====================*/
+:root {
+    font-size: 62.5%; /* 1 rem = 10px */
+
+    /* Font */
+    --font-poppins: "Poppins", sans-serif;
+    --font-weight-extralight: 200;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    /* Colors */
+    --Primary-Purple-500: hsl(259, 100%, 65%);
+    --Primary-Red-400: hsl(0, 100%, 67%);
+
+    /* Neutral */
+    --Neutral-White: hsl(0, 100%, 100%);
+    --Neutral-Grey-100: hsl(0, 0%, 94%);
+    --Neutral-Grey-200: hsl(0, 0%, 86%);
+    --Neutral-Grey-500: hsl(0, 1%, 44%);
+    --Black: hsl(0, 0%, 0%);
+}
+
+/*====================BODY====================*/
+body{
+    width:100%;
+    height:100vh;
+    font-family:var(--font-poppins);
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    background-color:var(--Neutral-Grey-100);
+}
+
+/*====================MAIN CONTAINER====================*/
+#main_container{
+    width:min(75rem, 100%);
+    padding: 5rem;
+    height:55rem;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    background-color: var(--Neutral-White);
+    border-radius: 3rem 3rem 15rem 3rem;
+}
+
+/*====================MAIN CONTAINER HEADER====================*/
+#main_container #main_container_header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:3rem;
+}
+
+.input_age_information h3{
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--Neutral-Grey-500);
+}
+
+ .input_age_information section input{
+    width: 14rem;
+    padding: 1rem;
+    font-weight: var(--font-weight-bold);
+    font-size:2.2rem;
+    border: 1px solid var(--Neutral-Grey-200);
+    border-radius:0.5rem;
+    cursor: pointer;
+    
+}
+
+.input_age_information section input:focus{
+    border: 1px solid var(--Primary-Purple-500);
+    outline: none;
+}
+
+/*====================MAIN CONTAINER ARTICLE====================*/
+#main_container #main_container_article{
+   margin-top: 2.5rem;
+   height: 4rem;
+   position: relative;
+}
+
+#main_container #main_container_article .arrow_icon_image_container{
+    width:10rem;
+    height:10rem;
+    background-color: var(--Primary-Purple-500);
+    border-radius: 50%;
+    position: absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top: -5rem;
+    right: 0;
+   
+}
+
+#main_container #main_container_article .arrow_icon_image_container:hover{
+    background-color: var(--Black);
+    cursor: pointer;
+}
+
+#main_container_article .arrow_icon_image_container img{
+    width: 5rem;
+    height: 5rem;
+}
+
+/*====================MAIN CONTAINER FOOTER====================*/
+#main_container #main_container_footer{
+    display:flex;
+    flex-direction:column;
+}
+
+#main_container #main_container_footer .age_calculator_results{
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    font-size: 3rem;
+    font-weight: var(--font-weight-black);
+    color: var(--Primary-Purple-500);
+    gap:1rem;
+    font-style: italic;
+}
+
+#main_container_footer .age_calculator_results p{
+    font-size: 6rem;
+    color: var(--Black);
+   
+}
+
+/*====================RESPONSIVIDADE MOBILE====================*/
+@media(max-width: 768px){
+    #main_container{
+        width:min(35rem, 100%);
+        padding: 2.5rem;
+        border-radius: 3rem 3rem 9rem 3rem;
+    }
+
+
+    #main_container #main_container_header{
+    gap:1.5rem;
+}
+
+#main_container #main_container_header h3{
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.75rem;
 }
 
 
-:root{
-    font-size: 62.5% /* 1 rem = 10px*/
+ .input_age_information section input{
+    width: 9rem;
+    font-size:2rem;
+}
 
 
-    /*FONT*/
+/*====================MAIN CONTAINER ARTICLE====================*/
+#main_container #main_container_article{
+   margin-top: 7.5rem;
+}
+
+#main_container #main_container_article .arrow_icon_image_container{
+    width:6.5rem;
+    height:6.5rem;
+    top: -3.5rem;
+    right: 40%;
+   
+}
+
+#main_container_article .arrow_icon_image_container img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+/*====================MAIN CONTAINER FOOTER====================*/
+
+#main_container #main_container_footer .age_calculator_results{
+    font-size: 3rem;
+
+}
+
+#main_container_footer .age_calculator_results p{
+    font-size: 5rem;
+
+}
+
 }
