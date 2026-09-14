@@ -66,6 +66,10 @@ body{
     color: var(--Neutral-Grey-500);
 }
 
+.input_age_information .error{
+    color:var(--Primary-Red-400);
+}
+
  .input_age_information section input{
     width: 14rem;
     padding: 1rem;
@@ -75,6 +79,14 @@ body{
     border-radius:0.5rem;
     cursor: pointer;
     
+}
+
+ .input_age_information section .input_age_informationError{
+    border: 1px solid var(--Primary-Red-400);
+}
+
+.input_age_information section label{
+     color:var(--Primary-Red-400);
 }
 
 .input_age_information section input:focus{
