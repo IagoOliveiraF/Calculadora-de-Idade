@@ -70,6 +70,12 @@ body{
     color:var(--Primary-Red-400);
 }
 
+ .input_age_information section{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+ }
+
  .input_age_information section input{
     width: 14rem;
     padding: 1rem;
