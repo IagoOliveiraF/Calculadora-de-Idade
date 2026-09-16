@@ -22,8 +22,8 @@ Projeto inicial de baixa complexida, com uso de flexbox para centralização do 
 ## Screenshot
 
 ###  Versão Desktop
-![alt text](<img width="2551" height="1271" alt="Age_Calculator_Desktop_version" src="https://github.com/user-attachments/assets/0a313418-9c9e-4dac-b84d-3069e3bb5470" />)
+![alt text](<img width="2551" height="1271" alt="Age_Calculator_Desktop_version" src="/design/Age_Calculator_Desktop_version.png"/>)
 
 
 ###  Versão Mobile
-![alt text](<img width="484" height="1186" alt="Age_Calculator_Mobile_version" src="https://github.com/user-attachments/assets/20758d82-0395-48b1-b856-35b4e143d1c0" />)
+![alt text](<img width="484" height="1186" alt="Age_Calculator_Mobile_version" src="/design/Age_Calculator_Mobile_version.png" />)
