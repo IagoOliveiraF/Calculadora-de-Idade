@@ -26,4 +26,4 @@ Projeto inicial de baixa complexida, com uso de flexbox para centralização do 
 
 
 ###  Versão Mobile
-![alt text](<img width="484" height="1186" alt="Age_Calculator_Mobile_version" src="/design/Age_Calculator_Mobile_version.png" />)
+![alt text](<img width="484" height="1186" alt="Age_Calculator_Mobile_version" src="[/design/Age_Calculator_Mobile_version.png](https://github.com/IagoOliveiraF/Calculadora-de-Idade/blob/main/design/Age_Calculator_Mobile_version.png)" />)
