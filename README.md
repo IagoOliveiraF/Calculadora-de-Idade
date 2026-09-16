@@ -1,4 +1,4 @@
-# Este é um desafio do FrontendMentor - Blog preview card solution (Junior)
+# Este é um desafio do FrontendMentor - Age Calculator (Junior)
 
 Esses desafios servem para o estudo e auto aprimoramento nas habilidades de desenvolvimento Front-End e Back-End quando necessário.
 
